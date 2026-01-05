@@ -178,3 +178,62 @@ li small {
         width: 100%;
     }
 }
+/* IMPROVED WHITE CARD LOOK */
+.container {
+    background: linear-gradient(180deg, #ffffff, #f9fafc);
+    border-radius: 16px;
+    padding: 28px 24px;
+    box-shadow:
+        0 25px 50px rgba(0, 0, 0, 0.25),
+        inset 0 1px 0 rgba(255, 255, 255, 0.7);
+}
+
+/* TITLE INSIDE WHITE AREA */
+.container h1 {
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+/* SECTION CARDS (Pending & Completed) */
+.task-section {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 14px;
+    margin-bottom: 20px;
+    box-shadow:
+        0 8px 16px rgba(0, 0, 0, 0.08);
+}
+
+/* SECTION HEADERS */
+.task-section h2 {
+    background: #f1f3ff;
+    border-radius: 8px;
+    padding: 8px 12px;
+    border-left: 4px solid #667eea;
+}
+
+/* TASK ITEM ENHANCEMENT */
+li {
+    background: linear-gradient(180deg, #f7f9fc, #eef1f8);
+    border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+/* COMPLETED TASK CARD */
+#completedTasks li {
+    background: linear-gradient(180deg, #eaf7ef, #def2e3);
+}
+
+/* INPUT BOX REFINEMENT */
+.add-task input {
+    background: #fbfbfe;
+    border: 1px solid #e0e3f0;
+}
+
+/* BUTTONS – MORE POLISH */
+.add-task button {
+    box-shadow: 0 6px 12px rgba(102, 126, 234, 0.4);
+}
+
+.task-actions button {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
